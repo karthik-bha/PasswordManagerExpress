@@ -1,8 +1,24 @@
-# React + Vite
+# Password Manager
+- This is a Full Stack app complete with frontend and backend.
+- NoSQL database MongoDB used.
+- Create, Delete and update URLs, Usernames and passwords.
+- Local MongoDB storage.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Cloud support through MongoDB Atlas and hosted website coming soon.
 
-Currently, two official plugins are available:
+## How to run?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Frontend
+- Open terminal, type
+  ```
+  cd <filename>
+  npm i
+  npm run dev
+  ```
+### Backend
+- Open terminal, type
+  ```
+  cd backend
+  npm i express
+  node server.js
+  ```
